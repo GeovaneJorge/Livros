@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Fernão Capelo Gaivota",
+        "description": "Descobrir algo que AMA FAZER e buscar um SENTIDO PARA VIDA, mesmo que as outras pessoas digam para você fazer outra coisa, é uma das mensagens mais poderosas. Ter FÉ que existe algo que, apenas de não “enxergarmos” com nossos olhos, podemos aprender a VER COM NOSSA INTUIÇÃO",
+        "price": 29.99,
+        "image": "imagens/livro1.jpg",
+        "link": "https://www.google.com.br/books/edition/Fern%C3%A3o_Capelo_Gaivota/0nCXCgAAQBAJ?hl=pt-BR&gbpv=1&printsec=frontcover"
+    },
+    {
+        "name": "O Homem que calculava",
+        "description": "Tahan narra a história de Bereniz Samir, um viajante com o dom intuitivo da matemática, manejando os números com a facilidade de um ilusionista",
+        "price": 49.99,
+        "image": "imagens/livro2.jpg",
+        "link": "https://leituramelhorviagem.files.wordpress.com/2016/11/o-homem-que-calculava-malba-tahan-1.pdf"
+    },
+    {
+        "name": "O Gestor Eficaz",
+        "description": "Uma obra intemporal, na qual Peter Drucker partilha todo o seu conhecimento para se tornar um gestor de sucesso. Por norma, tal envolve fazer o que outras pessoas negligenciaram e evitar o que é improdutivo.",
+        "price": 19.99,
+        "image": "imagens/livro3.jpg",
+        "link": "https://cdn.bookey.app/files/pdf/book/pt/-o-gestor-eficaz.pdf"
+    },
+    {
+        "name": "Desafios Gerenciais para o Século XXI",
+        "description": "Em Desafios Gerenciais para o Século XXI, Drucker ensina que, para produzir as informações que necessitam, os executivos têm de começar pelas seguintes perguntas: Que informações devo às pessoas com quem trabalho e das quais dependo?",
+        "price": 39.99,
+        "image": "imagens/livro4.jpg",
+        "link": "https://experience.hsm.com.br/trails/jornada-da-gestao-dos-negocios/post/desafios-gerenciais-para-o-seculo-xxi"
+    },
+    {
+        "name": "O Pequeno Príncipe",
+        "description": "Publicado em 6 de abril de 1943, o livro conta a história de um príncipe que veio do asteroide B-612. Na Terra, ele encontra um aviador perdido e passa a contar as aventuras que vivenciou em outros planetas. “Uma coisa que atravessa todos os tempos e fala com culturas diversas é a condição humana.",
+        "price": 59.99,
+        "image": "imagens/livro5.jpg",
+        "link": "https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery_1.pdf"
+    },
+
+    {
+        "name": "O Pequeno Príncipe",
+        "description": "Publicado em 6 de abril de 1943, o livro conta a história de um príncipe que veio do asteroide B-612. Na Terra, ele encontra um aviador perdido e passa a contar as aventuras que vivenciou em outros planetas. “Uma coisa que atravessa todos os tempos e fala com culturas diversas é a condição humana.",
+        "price": 59.99,
+        "image": "imagens/livro5.jpg",
+        "link": "https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery_1.pdf"
+    },
+    {
+        "name": "O Pequeno Príncipe",
+        "description": "Publicado em 6 de abril de 1943, o livro conta a história de um príncipe que veio do asteroide B-612. Na Terra, ele encontra um aviador perdido e passa a contar as aventuras que vivenciou em outros planetas. “Uma coisa que atravessa todos os tempos e fala com culturas diversas é a condição humana.",
+        "price": 59.99,
+        "image": "imagens/livro5.jpg",
+        "link": "https://www.sesirs.org.br/sites/default/files/paragraph--files/o_pequeno_principe_-_antoine_de_saint-exupery_1.pdf"
+    }
+   
+]
