@@ -21,7 +21,7 @@
         </nav>
     </header>
     <main>
-        <section class="products">
+        <section class="filmes">
             <h1>Filmes</h1>
             <h2>"A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original”  </h2>
             <div class="product-list" id="product-list">
@@ -35,11 +35,11 @@
 
    <script>
         // Carregar produtos de um arquivo JSON
-        fetch('products.json')
+        fetch('filmes.json')
             .then(response => response.json())
-            .then(products => {
+            .then(filmes => {
                 const productList = document.getElementById('product-list');
-                products.forEach(product => {
+                filmes.forEach(product => {
                     const productItem = document.createElement('div');
                     productItem.className = 'product-item';
                     productItem.innerHTML = `
