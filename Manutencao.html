@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geovane Sistemas </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Geovane Sistemas </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="Filmes.html">Filmes</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h1>Produtos</h1>
+            <h2>"🚧 Site em Manutenção Temporária 🚧
+                  Estamos realizando uma manutenção programada para melhorar a sua experiência.
+                  ⏰ Previsão de retorno: [informe a data/hora]
+                  🔧 Durante esse período, o site ficará temporariamente indisponível.
+                  Agradecemos a sua compreensão e estamos trabalhando para voltar o mais rápido possível." </h2>
+            <div class="product-list" id="product-list">
+                <!-- Os produtos serão carregados aqui -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Geovane Sistemas 2025 Loja Virtual. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Carregar produtos de um arquivo JSON
+        fetch('products.json')
+            .then(response => response.json())
+            .then(products => {
+                const productList = document.getElementById('product-list');
+                products.forEach(product => {
+                    const productItem = document.createElement('div');
+                    productItem.className = 'product-item';
+                    productItem.innerHTML = `
+                        <img src="${product.image}" alt="${product.name}">
+                        <h3>${product.name}</h3>
+                        <p>${product.description}</p>
+                        <p class="price">R$ ${product.price.toFixed(2)}</p>
+                        <a href="${product.link}" class="description-link" target="_blank"> Leia </a>
+                        <button>Comprar</button>
+                    `;
+                    productList.appendChild(productItem);
+                });
+            });
+    </script>
+</body>
+</html>
