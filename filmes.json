@@ -1,16 +1,10 @@
 [
     {
-        "name": "Fernão Capelo Gaivota",
-        "description": "Descobrir algo que AMA FAZER e buscar um SENTIDO PARA VIDA, mesmo que as outras pessoas digam para você fazer outra coisa, é uma das mensagens mais poderosas. Ter FÉ que existe algo que, apenas de não “enxergarmos” com nossos olhos, podemos aprender a VER COM NOSSA INTUIÇÃO",
-        "price": 29.99,
-        "image": "imagens/livro1.jpg",
-        "link": "https://www.google.com.br/books/edition/Fern%C3%A3o_Capelo_Gaivota/0nCXCgAAQBAJ?hl=pt-BR&gbpv=1&printsec=frontcover"
-    },
-    {
         "name": "O Regresso",
-        "description": "Após ser atacado por um urso, o caçador Hugh Glass é abandonado na floresta por seu companheiro John Fitzgerald. Apesar de muito ferido, Glass consegue sobreviver e vai em busca de vingança.",
-        "price": 49.99,
-        "image": "imagens/livro2.jpg",
+        "description": "Após ser atacado por um urso, o caçador Hugh Glass é abandonado na floresta por seu companheiro John Fitzgerald. Apesar de muito ferido, Glass consegue sobreviver e vai em busca de vingança",
+        "price": 29.00,
+        "Prime Video"
+        "image": "imagens/Filme1.jpg",
         "link": "https://www.primevideo.com/-/pt/detail/O-Regresso/0HKCTA7FWSUKCT3OIOTLJOTGE0"
     },
     {
